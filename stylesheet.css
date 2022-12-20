@@ -111,6 +111,14 @@ name {
   position: relative;
 }
 
+.skillsone {
+  width: 50px;
+  height: 75px;
+  position: relative;
+  top: 11px;
+  left: 0px;
+}
+
 .two {
   width: 160px;
   height: 160px;
@@ -128,4 +136,42 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
