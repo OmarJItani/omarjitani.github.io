@@ -262,12 +262,12 @@
         <table border=0 class="bg_colour" style="padding:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <!-- ITEM -->
           <tr>
-            <td style="padding:10px;width:25%;vertical-align:middle">
+            <td style="padding:10px;width:40%;vertical-align:middle">
               <div class="one">
-                  <img src='images/snake_robot_prototype.png' width="250">
+                  <img src='images/snake_robot_prototype.png' width="400">
               </div>
             </td>
-            <td style="padding:10px;width:75%;vertical-align:top">
+            <td style="padding:10px;width:60%;vertical-align:top">
                 <papertitle><big>Motion Planning for Snake Robots</papertitle></big> 
                 <br>
                 <p style="color:purple;"> <em>Keywords: Motion planning; optimization; collision avoidance; redundant systems; shape control; Mathematica</em></p>
@@ -285,27 +285,26 @@
           <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='images/Four_bar_mechanism.png' width="250">
+                    <img src='images/neural_network_arm.jpg' width="400">
                 </div>
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
-                <papertitle><big>Mechanism Synthesis Using Ant Colony Optimization</papertitle></big> 
+                <papertitle><big>Solving the Inverse Kinematics Problem for Robotic Manipulators using Deep Neural Networks</papertitle></big> 
                 <br>
-                <p style="color:purple;"> <em>Keywords: Search Algorithm; optimization; MATLAB</em></p>
-                <p>Four-bar mechanisms are widely used in the industry to transform rotational motion into a reciprocating motion, 
-                  however, careful synthesis of these mechanisms is important to produce a desired output motion. In fact, if the 
-                  number of precision points (waypoints) defining the mechanism's output motion is huge, the synthesis of the 
-                  mechanism might require optimization. In this work, a search algorithm is proposed to optimize the synthesis of 
-                  four-bar mechanisms, that is, given a desired path defined by a set of precision points, we present a Dynamic Ant 
-                  Search algorithm to find the optimal set of parameters for a four-bar mechanism to generate the desired path.</p>
+                <p style="color:purple;"> <em>Keywords: Deep Learning; Neural Networks; Inverse Kinematics; Python</em></p>
+                <p>I developed a fully-connected neural network to solve the inverse kinematic problem for a two degrees of freedom planar robotic Manipulator.
+                   The network architecture is composed of an input layer having 3 neurons, two hidden layers having 50 neurons each, and an ouput layer 
+                   having 4 neurons. The input and hidden layers are activated with a rectified linear activation function.  The input to the neural network 
+                   is the desired X and Y coordinates of the end effector as well as the euclidean distance bewteen the end effector and the origin of the inertial 
+                   frame. The output of the network is the cosine and sine of each joint variable. The test root mean squared error of the model is 0.0004.   </p>
             </td>
         </tr>
-        
+
           <!-- ITEM -->
           <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='images/boat.jpeg' width="250">
+                    <img src='images/boat.jpeg' width="400">
                 </div>
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
@@ -324,7 +323,7 @@
           <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='images/vex_robot.jpeg' width="250">
+                    <img src='images/vex_robot.jpeg' width="400">
                 </div>
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
@@ -341,7 +340,7 @@
           <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='images/slam_map.jpg' width="250">
+                    <img src='images/slam_map.jpg' width="400">
                 </div>
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
@@ -361,7 +360,7 @@
           <tr>
             <td style="padding:10px;width:25%;vertical-align:middle">
                 <div class="one">
-                    <img src='images/path_planning.png' width="250">
+                    <img src='images/path_planning.png' width="400">
                 </div>
             </td>
             <td style="padding:10px;width:75%;vertical-align:top">
@@ -370,13 +369,31 @@
                 <p style="color:purple;"> <em>Keywords: Path planning; graph-based search algorithms; sampling-based search algorithms; python</em></p>
                 <p>
                   As my research focuses on the motion planning and path planning of mobile robots, I have built a solid background in these fields. 
-                  Here, I present my implementation of several graph-based and sampling-based search algorithms including the Djikstra, A*, 
-                  RRT, RRT*, PRM algorithms.
+                  Here, I present my implementation of several graph-based and sampling-based search algorithms including the Djikstra, A*, and RRT algorithms.
+                  <!-- , RRT*, PRM algorithms. -->
                   </p>
             </td>
         </tr>
 
-
+          <!-- ITEM -->
+          <tr>
+            <td style="padding:10px;width:25%;vertical-align:middle">
+                <div class="one">
+                    <img src='images/Four_bar_mechanism.png' width="400">
+                </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:top">
+                <papertitle><big>Mechanism Synthesis Using Ant Colony Optimization</papertitle></big> 
+                <br>
+                <p style="color:purple;"> <em>Keywords: Search Algorithm; optimization; MATLAB</em></p>
+                <p>Four-bar mechanisms are widely used in the industry to transform rotational motion into a reciprocating motion, 
+                  however, careful synthesis of these mechanisms is important to produce a desired output motion. In fact, if the 
+                  number of precision points (waypoints) defining the mechanism's output motion is huge, the synthesis of the 
+                  mechanism might require optimization. In this work, a search algorithm is proposed to optimize the synthesis of 
+                  four-bar mechanisms, that is, given a desired path defined by a set of precision points, we present a Dynamic Ant 
+                  Search algorithm to find the optimal set of parameters for a four-bar mechanism to generate the desired path.</p>
+            </td>
+        </tr>
 
 
 
