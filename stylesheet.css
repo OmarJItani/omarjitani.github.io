@@ -141,8 +141,16 @@ span.highlight {
 
 
 
+button {
+  background-color:rgb(15, 186, 220);
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+}
 
-
+button:hover{
+  background-color:rgb(0, 255, 255);
+}
 
 
 
