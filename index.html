@@ -329,6 +329,13 @@
                 <papertitle><big>Roboat - A Robotic Boat</papertitle></big> 
                 <br>
                 <p style="color:purple;"> <em>Keywords: PID control; autonomous boats; brushless motors; Arduino</em></p>
+                
+                <div style="display: flex; gap: 20px;">
+                  <button class="openButton" data-video="videos/EDC_Video.mp4">
+                    Video
+                  </button>
+                </div>
+                
                 <p>I developed a 3D printed autonomous robotic boat that transports cargo units across a swimming pool. The developed 
                   boat autonomously navigates the swimming pool while avoiding static obstacles located in its way. The robot was designed 
                   on SolidWorks and controlled using an Arduino micro-controller. The robot was developed to participate in the Engineering 
@@ -508,16 +515,18 @@
 
 
 
-        
-       <!-- </tbody></table>
-        <hr>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <p>Updated Jan. 2023</p>
-            </td>
-          </tr>
-        </tbody></table> -->
+      <div id="videoPopup">
+          <div id="videoContainer">
+              <video id="videoPlayer" controls>
+                  <source id="videoSource" src="" type="video/mp4">
+              </video>
+              <button id="closeButton">Close</button>
+          </div>
+      </div>
+
+      <script src="script.js"></script>
+
+
 
 
       </td>
