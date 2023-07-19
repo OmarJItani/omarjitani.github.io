@@ -209,3 +209,10 @@ button:hover{
   width:100%;
   margin:0 auto;
 }
+
+
+
+/* Section Seperator, line */
+.section-separator {
+  border-top: 2px solid #333; /* Change the color code to your desired darker color */
+}
